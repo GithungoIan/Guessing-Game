@@ -133,7 +133,7 @@ public class GuessingGame  extends JFrame {
                 guessInput.requestFocus();
                 
               
-            }
+            
             //Setting focus to input guess text Field
             guessInput.requestFocus();
             guessInput.selectAll();
@@ -145,7 +145,7 @@ public class GuessingGame  extends JFrame {
     private class ButtonListner2 implements ActionListener{
         public void actionPerformed(final ActionEvent e){
 
-           
+            // ButtonListener2 is for the play Again button
             targetNumber = (int)(Math.random()*10);
             guessInput.setText("");
             guessDisplay.setText("");
